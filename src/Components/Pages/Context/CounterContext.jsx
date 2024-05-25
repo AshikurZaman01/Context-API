@@ -7,6 +7,7 @@ export const Counter_Context = createContext();
 const CounterContext = ({ children }) => {
 
     const [count, setCount] = useState(0);
+    const [counter, setCounter] = useState(0)
 
     const value = {
         count, setCount
