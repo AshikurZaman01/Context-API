@@ -1,10 +1,11 @@
 import React from 'react';
+import CounterContext from '../Context/CounterContext';
 
 const Home = () => {
     return (
-        <div>
-            
-        </div>
+        <CounterContext>
+
+        </CounterContext>
     );
 };
 
